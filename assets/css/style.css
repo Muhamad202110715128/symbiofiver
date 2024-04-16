@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.color-nav {
+  background-color: #22223b;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.3s;
+  color: white;
+}
+
+.login {
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #61d5a8, 0 0 40px #61d5a8,
+    0 0 50px #61d5a8, 0 0 60px #61d5a8, 0 0 70px #61d5a8;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #61d5a8, 0 0 40px #61d5a8,
+    0 0 50px #61d5a8, 0 0 60px #61d5a8, 0 0 70px #61d5a8;
+  font-weight: 600;
+}
+
+/* BANNER */
+.banner,
+.tujuan {
+  height: auto;
+  background: white;
+}
+
+.title-banner,
+.title-tujuan {
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.desc-banner,
+.desc-tujuan {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img-fluid {
+  margin-top: 40px;
+}
+
+/* FITUR FITUR */
+.fitur {
+  height: auto;
+  background-image: url("../img/bg-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team {
+  height: auto;
+  background-image: url("../img/bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fitur-title,
+.team-title {
+  color: #000;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card {
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* .title-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+/* FOOTER */
+.footer {
+  height: auto;
+  background-color: #22223b;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer-desc {
+  color: #ffffff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-copyright {
+  color: #034f24;
+  font-size: 14px;
+}
+
+/* PEKERJAAN */
+.pekerjaan {
+  height: auto;
+  background-color: #d6d6d6;
+}
+
+.pekerjaan-auto {
+  height: auto;
+  background-color: #d6d6d6;
+}
+
+.title-pekerjaan {
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card-line {
+  border: 2px solid #000000;
+  width: calc(100% + 1rem);
+  margin: 0 auto 1rem auto;
+}
+.progress {
+  background-color: #000000;
+}
+.progress,
+.progress-stacked {
+  height: 2rem;
+  border-radius: 2rem;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  /* FITUR FITUR */
+  .card-title {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  /* TUJUAN */
+  /* .tujuan .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tujuan .col-md-6 {
+    width: 100%;
+  } */
+
+  /* TEAM */
+  .team {
+    height: auto;
+  }
+
+  /* PEKERJAAN */
+  .pekerjaan {
+    height: auto;
+    background-color: #d6d6d6;
+  }
+
+  .title-pekerjaan {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .cari-forum {
+    width: 20rem;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  /* BANNER */
+  .banner,
+  .tujuan {
+    height: auto;
+    background: white;
+  }
+
+  .container-banner {
+    padding-top: 2%;
+    max-width: 1200px;
+  }
+
+  .title-banner,
+  .title-tujuan {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .desc-banner,
+  .desc-tujuan {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .img-fluid {
+    margin-top: 0;
+  }
+
+  /* FITUR FITUR */
+  .fitur {
+    height: auto;
+    background-image: url("../img/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fitur-title,
+  .team-title {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .card-title {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .card-fitur {
+    padding: 10px;
+  }
+
+  /* TUJUAN */
+  .container-tujuan {
+    padding-top: 5%;
+  }
+
+  /* TEAM */
+  .team {
+    height: auto;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: auto;
+    background-color: #22223b;
+  }
+
+  .footer-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  /* PEKERJAAN */
+  .pekerjaan {
+    height: auto;
+    background-color: #d6d6d6;
+  }
+
+  .title-pekerjaan {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .cari-forum {
+    width: 25rem;
+  }
+}
+
+/* Laptop 1024px */
+@media (max-width: 1024px) {
+  /* TEAM */
+  .team {
+    height: auto;
+  }
+}
+
+/* Laptop 1050px */
+@media (max-width: 1050px) {
+  .team {
+    height: auto;
+  }
+}
